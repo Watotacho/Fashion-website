@@ -1,0 +1,293 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #E8AEA3;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Nav bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0px 17px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    transition: 00.6s ease;
+
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #e900af;
+    box-shadow: 5px 10px 30px rgba(255, 0, 212, 0.993);
+}
+
+/* home-page */
+#home-img1 img{
+    height: 450px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -33%;
+}
+#home-img2 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img3 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img4 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img5 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img6 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img7 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img8 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img9 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img10 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-page{
+    height: 450px;
+    padding-top: 10%;
+}
+.home-page-heading{
+    width: 1250px;
+    height: 520px;
+    position: absolute;
+    left: 5%;
+    top: 53%;
+    color:  #e900af00;
+    transform: translate(-1%, -50%);
+    background-color: rgba(255, 253, 253, 0.33);
+}
+.home-page-heading h1{
+    font-size: 50px;
+    margin: 0px;
+    letter-spacing: 3px;
+
+}
+.home-page-heading h1 span{
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 100px;
+    opacity: 50%;
+    margin-top: 80px;
+}
+#one{
+    color: #000000;
+    margin-left: 300px;
+    font-size: 40px;
+    font-weight: 1000;
+}
+#two{
+    color: rgba(0, 0, 0, 0.993);
+    margin-left: 465px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+
+/* About */
+#about{
+    width: 100;
+    height: 800px;
+    display: flex;
+    align-items: center; 
+      
+}
+#about h1{
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: -1024px;
+    margin-top: 20px;
+    opacity: 50%;
+    margin-top: 67px;
+    font-size: 50px;
+}
+#about h2{
+    margin-top: -500px;
+    margin-left: 100px;
+}
+#line{
+    width: 1000px;
+    background-color: black;
+    height: 1px;
+    margin-left: 7px;
+    margin-top: -37%;
+    opacity: 32%;
+}
+#name{
+    color: brown;
+    font-size: 25px;
+    font-weight: 600;
+}
+#paragraph{
+    margin-top: -70px;
+    margin-left: 480px;
+    font-size: 16px;
+}
+.about-page-heading{
+    width: 1250px;
+    height: 520px;
+    position: absolute;
+    left: 5%;
+    top: 175%;
+    color:  #e900af00;
+    transform: translate(-1%, -50%);
+    background-color: rgba(169, 100, 100, 0.33);
+}
+
+
+
+
+
+Contact */
+  #contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    background-color: #1e1e1e;
+}
+#contact form{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact form input, #contact form textarea{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px;
+    padding: 10px;
+    background-color: #fff;
+    color: #1e1e1e;
+    border-radius: 5px;
+}
+#contact form textarea{
+    height: 150px;
+    float: left;
+    flex-direction: column-reverse;
+}
+#contact form input[type="submit"]{
+    height: 45px;
+    background-color: #818d89;
+    color: #000;
+    text-transform: uppercase;
+    padding-left: 20px;
+    float: left;
+
+}
+/*=====Contact Me Form*/
+ section#contact{
+    width:80%;
+    margin:auto;
+  }
+  #form2{
+   width:40%;
+   margin:auto;
+   padding: 12px;
+
+ }
+ #form2 h2{
+   text-align:center;
+   margin-bottom:10%;
+ }
+ #form2 div{
+   margin-bottom:2%;
+ }
+ #form2 input,#form2 textarea{
+   padding:10px;
+   width:100%;
+   outline:none;
+   border:1px solid var(--second-color);
+   resize:none;
+   border-radius: 20px;
+ }
+ .hero_btn {
+     border-radius: 20px;
+     width: 20px;
+     outline: none;
+ }
